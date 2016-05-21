@@ -4,6 +4,7 @@ import Relay from "react-relay";
 
 import Main from "./components/Main";
 
+@autobind
 class HomeRoute extends Relay.Route {
   static routeName = 'Home';
   static queries = {

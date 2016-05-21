@@ -5,6 +5,7 @@ import {debounce} from "lodash";
 import Link from "./Link";
 import CreateLinkMutation from "../mutations/CreateLinkMutation";
 
+@autobind
 class Main extends React.Component {
   constructor(props) {
     super(props);

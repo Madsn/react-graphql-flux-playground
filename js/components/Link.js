@@ -2,6 +2,7 @@ import React from "react";
 import Relay from "react-relay";
 import moment from "moment";
 
+@autobind
 class Link extends React.Component {
   dateStyle = () => ({
     color: '#888',
